@@ -193,6 +193,7 @@ Acrescente `export DOCKER_BUILDKIT=1` no final do arquivo .profile do seu usuár
 * O sistema de arquivos do Windows 10 é acessível em `/mnt`.
 ![Mount no WSL2](img/mount_no_wsl2.png)
 * É possível acessar o sistema de arquivos do Linux pela rede do Windows, digite `\\wsl$` no Windows Explorer.
+* Para não ter que ficar digitando o caminho toda vez que precisar acessar o sistema de arquivos do Linux, basta criar um mapeamento de rede clicando com o botão direito do mouse em meu computador / mapear unidade de rede e passar o caminho `\\wsl$` e será criado uma unidade com o endereço dos arquivos Linux.
 ![Acessando WSL2 no Windows Explorer](img/acessando_wsl2_no_explorer.png)
 * É possível acessar uma pasta no Windows Explorer digitando o comando ```explorer.exe .```.
 * É possível abrir uma pasta ou arquivo com o Visual Studio Code digitando o comando ```code . ou code meu_arquivo.ext```.
